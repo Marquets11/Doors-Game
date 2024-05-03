@@ -4,7 +4,7 @@ import DoorLayout from "../components/DoorLayout";
 import { useDoorsQuantityContext } from "../hooks/doorsQuantityContext";
 import { useCorrectDoorContext } from "../hooks/correctDoorContext";
 
-export default function doorsChallenge() {
+export default function DoorsChallenge() {
 	const { doorsQuantity, setDoorsQuantity } = useDoorsQuantityContext();
 	const { setCorrectDoor } = useCorrectDoorContext();
 
